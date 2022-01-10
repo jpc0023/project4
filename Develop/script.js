@@ -13,7 +13,7 @@ $(document).ready(function () {
 
         localStorage.setItem(time, value);
     });
-    $("#currentDay").text(moment().format("LLL"));
+    $("#currentDay").text(moment().format("LL"));
     function timeFrame() {
         var currentHours = moment().hours();
 
